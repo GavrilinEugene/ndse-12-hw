@@ -1,8 +1,11 @@
 {
-  "name": "task_1",
+  "name": "evgenii_gavrilin_test_project",
   "version": "1.0.0",
   "description": "",
   "main": "task_1.js",
+  "bin":{
+    "simple-exec": "task_1.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
