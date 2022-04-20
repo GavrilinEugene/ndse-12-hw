@@ -118,6 +118,7 @@ yargs(hideBin(process.argv))
             console.log(date);
         }
     )
+    .version(false)
     .help('help')
     .showHelpOnFail(true, 'Specify --help for available options')
     .argv;
