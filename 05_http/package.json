@@ -2,14 +2,15 @@
   "name": "05_http",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "weather.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node weather.js",
+    "dev": "node -r dotenv/config weather.js weather --city Moscow"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "dotenv": "^16.0.0"
   }
 }
